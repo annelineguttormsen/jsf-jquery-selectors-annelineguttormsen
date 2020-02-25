@@ -1,5 +1,11 @@
 # JQuery Selectors
 
+## Firstly
+
+Fork this project then clone to your machine
+
+## Task
+
 Firstly, add jQuery to the project, either locally or via CDN.
 
 In master.js, select the specified element(s) from each question and set a class of "answer" on those elements.
