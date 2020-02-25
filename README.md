@@ -12,8 +12,8 @@ When answered correctly, the question will be tagged with the word "correct" whe
 
 ## Reference
 
-JQuery selector examples: https://www.w3schools.com/jquery/trysel.asp
-JQuery CDN:https://cdnjs.com/libraries/jquery
+- JQuery selector examples: https://www.w3schools.com/jquery/trysel.asp
+- JQuery CDN: https://cdnjs.com/libraries/jquery
 
 
 ## Further practice
