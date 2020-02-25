@@ -5,11 +5,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Task - Noroff</title>
+    <title>JQuery Selectors - Noroff</title>
+
 
     <link rel="stylesheet" href="./css/master.css" text="text/css" />
 </head>
 <body>
+
+    <div class="question">
+        <div id="question1" data-answer="true">Select by ID</div>
+    </div>
+
+    <div class="question">
+        <div class="question2" data-answer="true">Select by class</div>
+    </div>
+
+    <div class="question">
+        <div class="question3">
+            <span data-answer="true">Select by class and element</span>
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="question4">
+            
+            <div data-answer="true">Select multple</div>
+            <div data-answer="true">Select multple</div>
+            <div data-answer="true">Select multple</div>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question5">
+            <div>
+                <div>
+                    <div data-answer="true">Select nested</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question6">
+            <div>
+                <div>
+                    <p data-answer="true">Select multiple with different parents</p>
+                </div>
+                <p data-answer="true">Select multiple with different parents</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="question">
+        <div class="question7">
+            <div>
+                <div>
+                    <p data-answer="true">Select multiple with differnt elements</p>
+                </div>
+                <a data-answer="true">Select multiple with differnt elements</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question8">
+            <ul>
+                <li data-answer="true">Select first child</li>
+                <li>Select first child</li>
+                <li>Select first child</li>
+                <li>Select first child</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question9">
+            <ul>
+                <li>Select last child</li>
+                <li>Select last child</li>
+                <li>Select last child</li>
+                <li data-answer="true">Select last child</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question10">
+            <ul>
+                <li>
+                    <a href="#">
+                        Select last child's child
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Select last child's child
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Select last child's child
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-answer="true">
+                        Select last child's child
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <div class="question11">
+            <ul>
+                <li>
+                    <a>
+                        No link
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-answer="true">
+                        Linked - Select by href attribute
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        No link
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        No link
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div class="question">
+        <div class="question12">
+            <ul>
+                <li>
+                    <a href="./relativelink">
+                        Relative link
+                    </a>
+                </li>
+                <li>
+                    <a href="http://google.com" data-answer="true">
+                        External link - Select by href attribute start value "http:"
+                    </a>
+                </li>
+                <li>
+                    <a href="./relativelink">
+                        Relative link
+                    </a>
+                </li>
+                <li>
+                    <a href="./relativelink">
+                        Relative link
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div class="question">
+        <div class="question13">
+            <ul>
+                <li>
+                    <a data-answer="true">
+                        No link - Select multiple without attribute
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Linked
+                    </a>
+                </li>
+                <li>
+                    <a data-answer="true">
+                        No link - Select multiple without attribute
+                    </a>
+                </li>
+                <li>
+                    <a data-answer="true">
+                        No link - Select multiple without attribute
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- include jQuery library first -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./js/master.js"></script>
 </body>
 </html>

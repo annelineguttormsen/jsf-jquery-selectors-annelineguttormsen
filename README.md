@@ -1,19 +1,9 @@
-# Task
+# JQuery Selectors
 
+In master.js, select the specified element(s) from each question and set a class of "answer" on those elements.
 
+Selectiong in JQuery is done by using the `$()` method e.g. `$(".classSelector")`.  A class can then be added to all elements by using the JQuery `addClass()` method on the returned elements e.g. `$(".classSelector").addClass("answer")`.
 
-**Note:** Styles are provided for you in master.css. Look in the file to find the approriate class names to use on your HTML elements.
+When answered correctly, the question will be tagged with the word "correct" when viewed in the the browser.
 
-### Example
-
-[The example is here](https://link).
-
-## Task
-
-Clone or download this repository onto your computer.  You will start out in the "master" branch which contains an empty project.
-
-Try to recreate the website above.  Firstly, try to create it without any help.  If you are unsure of what to do, you can follow the steps below.  If the steps don't help, checkout out the "answer" branch from this repository.  The answer branch contains a working example.
-
-## Steps
-
-1. 
+**Note**: The data-answer attribute tells you which items need the answet class added to.  Do not select the elements using the data-answer attribute, as that defeats the purpose of the task.

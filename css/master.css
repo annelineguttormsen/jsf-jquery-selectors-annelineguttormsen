@@ -1,0 +1,53 @@
+html {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 1em;
+
+    counter-reset: question;
+}
+
+.question {
+    padding: 1em;
+    background-color: white;
+}
+.question::before {
+    counter-increment: question;
+    content: "Question " counter(question);
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.answer::after,
+[data-answer]::after {
+    font-size: 0.5rem;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+[data-answer]::after {
+    content: "not answered";
+    background-color: grey;
+}
+
+.answer::after {
+    content: "wrong";
+    background-color: red;
+}
+
+[data-answer].answer::after {
+    content: "correct";
+    background-color: green;
+}
+
+.question+.question {
+    margin-top: 1em;
+}
